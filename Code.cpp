@@ -51,26 +51,31 @@ int main() {
 
   if (op == 'y' || op == 'Y') {
     cout << "The sum of " << x << " and " << y << " is: " << add(x, y) << endl;
-  } else {
+  } 
+    else {
     cout << "Do you want to perform subtraction? (yes=y, no=n): ";
     cin >> op;
     if (op == 'y' || op == 'Y') {
       cout << "The difference of " << x << " and " << y << " is: " << sub(x, y) << endl;
-    } else {
+    } 
+    else {
       cout << "Do you want to perform multiplication? (yes=y, no=n): ";
       cin >> op;
       if (op == 'y' || op == 'Y') {
         cout << "The product of " << x << " and " << y << " is: " << multi(x, y) << endl;
-      } else {
+      } 
+      else {
         cout << "Do you want to perform division? (yes=y, no=n): ";
         cin >> op;
         if (op == 'y' || op == 'Y') {
           if (y != 0) {
             cout << div_print(x, y) << endl;
-          } else {
+          } 
+          else {
             cout << "Error: Division by zero is not allowed." << endl;
           }
-        } else {
+        } 
+        else {
           cout << "Invalid operation" << endl;
         }
       }
