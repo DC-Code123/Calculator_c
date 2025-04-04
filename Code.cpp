@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <sstream>
+#include <cmath> 
 
 using namespace std;
 
@@ -81,6 +82,17 @@ int main() {
       }
     }
   }
+  char AdditionalFunction;
+  cout<<"Are you interested in performing additional functions? (yes=y, no=n): ";
+  cin>> AdditionalFunction;
+  if (AdditionalFunction == 'y'||AdditionalFunction == 'Y'){
+    void AdditionalFunction()
+  }
+  else{
+    cout<<"Thank you for using the calculator!"<<endl;
+    return 0;
+  }
 
   return 0;
 }
+void 
