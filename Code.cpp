@@ -83,6 +83,7 @@ int main(){
     cout<<"Invalid input. Please enter 'B' for basic operations or 'A' for additional operations."<<endl;
 
   }
+  return 0;
 }
 int Basic_ops(){
   cout<<"Welcome to the basic operations section!"<<endl;
@@ -111,4 +112,5 @@ int Basic_ops(){
   } else {
     cout<<"Invalid operation"<<endl;
   }
+  return 0;
 }
